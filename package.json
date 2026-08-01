@@ -37,7 +37,7 @@
     "lint": "tsc",
     "prettier": "prettier . --check",
     "pretest": "rimraf ./coverage",
-    "test": "jest",
+    "test": "vitest",
     "build": "tsup",
     "prepublishOnly": "npm run build",
     "release": "release-it",
