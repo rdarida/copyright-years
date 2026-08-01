@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "lib": ["ES2022"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "types": ["node"],
+    "types": ["jest"],
     "resolveJsonModule": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -13,6 +13,6 @@
     "skipLibCheck": true,
     "ignoreDeprecations": "6.0"
   },
-  "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["dist", "node_modules"]
+  "include": ["./src/**/*", "./tests/**/*"],
+  "exclude": ["node_modules", "./dist"]
 }
