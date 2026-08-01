@@ -1,0 +1,32 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "coverage": true,
+    "dist": true,
+    "docs": true,
+    "node_modules": true,
+    ".editorconfig": true,
+    ".prettierignore": true,
+    ".prettierrc": true,
+    ".release-it.json": true,
+    "cover.png": true,
+    "CHANGELOG.md": true,
+    "favicon.ico": true,
+    "LICENSE": true,
+    "package-lock.json": true,
+    "sonar-project.properties": true,
+    "tsconfig.json": true,
+    "tsup.config.ts": true,
+    "typedoc.json": true,
+    "vitest.config.ts": true
+  },
+  "sonarlint.connectedMode.project": {
+    "connectionId": "rdarida",
+    "projectKey": "rdarida_copyright-years"
+  }
+}
