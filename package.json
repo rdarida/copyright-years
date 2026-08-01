@@ -1,0 +1,27 @@
+{
+  "name": "copyright-years",
+  "version": "0.1.0",
+  "description": "Generate dynamic copyright year ranges (e.g., 2024-2026)",
+  "keywords": [
+    "copyright",
+    "year-range",
+    "dynamic-date",
+    "footer-utility",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "Róbert Darida",
+  "homepage": "https://github.com/rdarida/copyright-years#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarida/copyright-years.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdarida/copyright-years/issues"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
