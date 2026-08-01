@@ -4,7 +4,6 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "types": ["jest"],
     "resolveJsonModule": true,
     "noEmit": true,
     "esModuleInterop": true,
